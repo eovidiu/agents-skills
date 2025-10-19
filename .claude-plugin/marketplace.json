@@ -5,7 +5,7 @@
     "email": "eovidiu@users.noreply.github.com"
   },
   "metadata": {
-    "description": "Custom agent skills for frontend development and code review",
+    "description": "Custom agent skills for frontend development, backend development, and code review",
     "version": "1.0.0"
   },
   "plugins": [
@@ -16,6 +16,15 @@
       "strict": false,
       "skills": [
         "./frontend-reviewer-skill"
+      ]
+    },
+    {
+      "name": "fastify-expert",
+      "description": "Expert-level Fastify framework skill for building high-performance Node.js applications",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./fastify-expert"
       ]
     }
   ]
