@@ -1,0 +1,22 @@
+{
+  "name": "eovidiu-agent-skills",
+  "owner": {
+    "name": "Ovidiu Eftimie",
+    "email": "eovidiu@users.noreply.github.com"
+  },
+  "metadata": {
+    "description": "Custom agent skills for frontend development and code review",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "frontend-skills",
+      "description": "Frontend code review and development skills",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./frontend-reviewer-skill"
+      ]
+    }
+  ]
+}
