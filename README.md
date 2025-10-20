@@ -4,7 +4,9 @@ A collection of custom skills for Claude Code that enhance your development work
 
 ## What are Claude Skills?
 
-Claude Skills are specialized prompt extensions that give Claude Code domain-specific expertise. Each skill provides:
+Claude Skills are specialized prompt extensions that give Claude Code domain-specific expertise. Learn more in the [official Claude Skills documentation](https://docs.claude.com/en/docs/claude-code/skills).
+
+Each skill provides:
 
 - **Focused Knowledge**: Deep understanding of specific frameworks, tools, or workflows
 - **Best Practices**: Senior-level guidance and production-ready patterns
@@ -12,31 +14,24 @@ Claude Skills are specialized prompt extensions that give Claude Code domain-spe
 - **Reusable Templates**: Starter projects and boilerplates
 - **Scripts & Tools**: Executable utilities for common tasks
 
+## Skills Overview
+
+### Frontend Reviewer
+Systematic code review for React, Vue, and Angular applications. Analyzes component architecture, HTML/CSS, accessibility (WCAG 2.1), and performance. Produces categorized checklists with severity ratings and actionable recommendations. Covers React 19 patterns, hooks, TypeScript, Tailwind CSS, state management, and build optimization. Identifies anti-patterns with specific file/line references and concrete fixes.
+
+### Fastify Expert
+Senior-level expertise for high-performance Node.js applications with Fastify. Covers plugin architecture, schema-first development with JSON Schema/TypeBox, and performance engineering using autocannon and clinic.js. Includes production-ready boilerplate with database integration, authentication, Docker setup, and comprehensive testing. Provides detailed references for architecture, optimization, security, and deployment patterns.
+
+### TDD UI Expert
+Pragmatic Test-Driven Development for React applications using React Testing Library and MSW for API mocking. Emphasizes integration-first testing strategy and Red-Green-Refactor cycle. Covers testing components, forms, hooks, and authentication flows. Focuses on behavior-driven testing—test what matters (business logic, workflows) while skipping what doesn't (CSS, styling). Includes templates and setup scripts.
+
 ## Available Skills
 
-### Frontend Skills
-
-#### Frontend Code Reviewer
-Expert-level code review for React/Vue/Angular applications, focusing on:
-- Component architecture and design patterns
-- HTML/CSS structure and accessibility (WCAG 2.1)
-- Performance optimization and bundle analysis
-- Security best practices
-- Testing strategies
-
-**Location**: `frontend-reviewer-skill/`
-
-### Backend Skills
-
-#### Fastify Expert
-Senior-level expertise for building high-performance Node.js applications with Fastify:
-- Plugin architecture and schema-first development
-- Performance engineering with autocannon and clinic.js
-- Production deployment patterns
-- Security and observability
-- Production-ready boilerplate template
-
-**Location**: `fastify-expert/`
+| Skill | Location | Category |
+|-------|----------|----------|
+| Frontend Reviewer | `frontend-reviewer-skill/` | Frontend |
+| Fastify Expert | `fastify-expert/` | Backend |
+| TDD UI Expert | `tdd-ui-expert/` | Testing |
 
 ## Using This Marketplace in Your Project
 
