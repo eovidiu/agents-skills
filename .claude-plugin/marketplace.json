@@ -26,6 +26,15 @@
       "skills": [
         "./fastify-expert"
       ]
+    },
+    {
+      "name": "tdd-ui-expert",
+      "description": "Pragmatic Test-Driven Development skill for frontend engineers building React applications",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./tdd-ui-expert"
+      ]
     }
   ]
 }
