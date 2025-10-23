@@ -5,7 +5,7 @@
     "email": "eovidiu@users.noreply.github.com"
   },
   "metadata": {
-    "description": "Custom agent skills for frontend development, backend development, and code review",
+    "description": "Custom agent skills for frontend development, backend development, code review, and web accessibility",
     "version": "1.0.0"
   },
   "plugins": [
@@ -34,6 +34,15 @@
       "strict": false,
       "skills": [
         "./tdd-ui-expert"
+      ]
+    },
+    {
+      "name": "web-accessibility-checker",
+      "description": "Web accessibility compliance checker for WCAG 2.2 Level AA and EU EAA requirements",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./web-accessibility-checker"
       ]
     }
   ]

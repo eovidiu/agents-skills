@@ -25,6 +25,9 @@ Senior-level expertise for high-performance Node.js applications with Fastify. C
 ### TDD UI Expert
 Pragmatic Test-Driven Development for React applications using React Testing Library and MSW for API mocking. Emphasizes integration-first testing strategy and Red-Green-Refactor cycle. Covers testing components, forms, hooks, and authentication flows. Focuses on behavior-driven testing—test what matters (business logic, workflows) while skipping what doesn't (CSS, styling). Includes templates and setup scripts.
 
+### Web Accessibility Checker
+Comprehensive accessibility compliance checker for WCAG 2.2 Level AA and European Accessibility Act (EAA) requirements. Provides automated testing with axe-core, manual testing procedures, and structured compliance reports. Covers keyboard navigation, screen reader testing, color contrast, and form accessibility. Includes detailed WCAG 2.2 success criteria reference, manual testing checklist, and EAA compliance guidance. Generates prioritized remediation reports with specific code examples.
+
 ## Available Skills
 
 | Skill | Location | Category |
@@ -32,6 +35,7 @@ Pragmatic Test-Driven Development for React applications using React Testing Lib
 | Frontend Reviewer | `frontend-reviewer-skill/` | Frontend |
 | Fastify Expert | `fastify-expert/` | Backend |
 | TDD UI Expert | `tdd-ui-expert/` | Testing |
+| Web Accessibility Checker | `web-accessibility-checker/` | Accessibility |
 
 ## Using This Marketplace in Your Project
 
