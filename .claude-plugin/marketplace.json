@@ -44,6 +44,15 @@
       "skills": [
         "./web-accessibility-checker"
       ]
+    },
+    {
+      "name": "skill-security-analyzer",
+      "description": "Comprehensive security analysis tool for Claude Code skills - detects malicious code, vulnerabilities, and best practice violations",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skill-security-analyzer"
+      ]
     }
   ]
 }
