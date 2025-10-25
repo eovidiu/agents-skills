@@ -1,0 +1,33 @@
+# Private/personal skills - not for public sharing
+my-email-skill/
+my-email-skill.zip
+
+# Temporary files and outputs
+*.pdf
+*.json
+generate_pdf_report.py
+bamboohr-accessibility-report.md
+
+# Packaged skills (can be regenerated)
+*.zip
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
