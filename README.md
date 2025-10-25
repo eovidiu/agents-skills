@@ -1,6 +1,6 @@
 # Claude Code Skills Marketplace
 
-A collection of custom skills for Claude Code that enhance your development workflow with specialized expertise and domain knowledge.
+A collection of custom skills for Claude Code that enhance your development workflow with specialized expertise in frontend/backend development, testing, accessibility, security analysis, and skill quality assurance.
 
 ## What are Claude Skills?
 
@@ -28,6 +28,12 @@ Pragmatic Test-Driven Development for React applications using React Testing Lib
 ### Web Accessibility Checker
 Comprehensive accessibility compliance checker for WCAG 2.2 Level AA and European Accessibility Act (EAA) requirements. Provides automated testing with axe-core, manual testing procedures, and structured compliance reports. Covers keyboard navigation, screen reader testing, color contrast, and form accessibility. Includes detailed WCAG 2.2 success criteria reference, manual testing checklist, and EAA compliance guidance. Generates prioritized remediation reports with specific code examples.
 
+### Skill Security Analyzer
+Comprehensive security analysis tool for Claude Code skills and plugins. Detects malicious code patterns, command injection vulnerabilities, YAML injection, supply chain risks, and best practice violations. Provides automated scanning via Python script plus manual code review workflow. Analyzes network operations, file system access, command execution, and code obfuscation. Generates structured security reports with risk ratings (CRITICAL/HIGH/MEDIUM/LOW), specific remediation recommendations, and installation approval guidance. Essential for validating skills from marketplaces, zip files, or untrusted sources.
+
+### Skill Quality Analyzer
+Comprehensive quality analysis tool for Claude Skills across five balanced dimensions: Structure & Documentation (20%), Security (30%), User Experience (20%), Code Quality (15%), and Integration & Tools (15%). Supports three analysis modes: comprehensive report with scores (0-100) and grades, interactive review with actionable recommendations, and pass/fail certification with blocking issues. Analyzes skills from GitHub URLs, marketplace links, ZIP files, or local directories. Integrates with skill-security-analyzer for vulnerability detection. Includes best practices database (2,908 lines) with quality checklists, proven patterns, and common anti-patterns.
+
 ## Available Skills
 
 | Skill | Location | Category |
@@ -36,6 +42,8 @@ Comprehensive accessibility compliance checker for WCAG 2.2 Level AA and Europea
 | Fastify Expert | `fastify-expert/` | Backend |
 | TDD UI Expert | `tdd-ui-expert/` | Testing |
 | Web Accessibility Checker | `web-accessibility-checker/` | Accessibility |
+| Skill Security Analyzer | `skill-security-analyzer/` | Security |
+| Skill Quality Analyzer | `skill-quality-analyzer/` | Quality Assurance |
 
 ## Using This Marketplace in Your Project
 
