@@ -53,6 +53,15 @@
       "skills": [
         "./skill-security-analyzer"
       ]
+    },
+    {
+      "name": "skill-quality-analyzer",
+      "description": "Comprehensive quality analysis tool for Claude Skills - evaluates structure, security, UX, code quality, and integration with three output modes",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skill-quality-analyzer"
+      ]
     }
   ]
 }
